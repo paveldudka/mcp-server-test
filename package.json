@@ -1,6 +1,6 @@
 {
   "name": "mcp-server-test",
-  "version": "0.0.1",
+  "version": "0.0.2",
   "description": "Demo Model Context Protocol server",
   "repository": "https://github.com/paveldudka/mcp-server-test",
   "type": "module",
