@@ -1,0 +1,28 @@
+{
+  "name": "mcp-server-test",
+  "version": "0.0.1",
+  "description": "Demo Model Context Protocol server",
+  "repository": "https://github.com/paveldudka/mcp-server-test",
+  "type": "module",
+  "bin": {
+    "mcp-server-test": "dist/index.js"
+  },
+  "files": [
+    "dist"
+  ],
+  "scripts": {
+    "build": "tsc && shx chmod +x dist/src/*.js",
+    "prepare": "npm run build",
+    "watch": "tsc --watch"
+  },
+  "dependencies": {
+    "@modelcontextprotocol/sdk": "1.5.0",
+    "node-fetch": "^3.3.2"
+  },
+  "devDependencies": {
+    "@types/node": "^20.11.24",
+    "@types/node-fetch": "^2.6.12",
+    "typescript": "^5.3.3",
+    "shx": "^0.3.4"
+  }
+}
